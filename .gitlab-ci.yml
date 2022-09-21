@@ -1,6 +1,11 @@
-image: maven:3-jdk-11
+
 stages:
-    - regression
+  - build
+  - regression
+
+Build:
+  stage: build
+  image: maven:3-jdk-11
 
 Chrome:
   stage: regression
