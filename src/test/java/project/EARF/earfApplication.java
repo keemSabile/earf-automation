@@ -41,7 +41,7 @@ public class earfApplication extends listener {
 
         // Personal Information fill-up
         userInfo.earf(driver);
-
+        System.out.println("Filled out user information");
         // Screenshot
         Screen.capture(driver, className, "<b>User personal information input</b>");
 
@@ -57,6 +57,8 @@ public class earfApplication extends listener {
             Thread.sleep(1000);
             driver.findElement(By.xpath("(//input[@name='U2000-options'])[5]")).click();// U2000 Import
             Thread.sleep(1000);
+            System.out.println("iBAS Admin & U2000 Import");
+
 
             // Screenshot
             Screen.capture(driver, className,"<b>User input applications</b>");
@@ -92,6 +94,8 @@ public class earfApplication extends listener {
             driver.findElement(By.name("otherTools.[2].valueName")).sendKeys("Ubuntu");
             Thread.sleep(1000);
 
+            System.out.println("Other tools, Eclipse + Java + Ubuntu");
+
             Screen.capture(driver, className,"<b>User personal information input</b>");
 
             Thread.sleep(1000);
@@ -99,9 +103,9 @@ public class earfApplication extends listener {
             // Modify PDF
             driver.findElement(By.xpath("(//button[normalize-space()='Generate PDF'])[1]")).click();
             extentTest.get().log(Status.INFO, "User clicks GeneratePDF");
-            Thread.sleep(2000);
-            driver.switchTo().alert().accept();
             Thread.sleep(5000);
+            driver.switchTo().alert().accept();
+            Thread.sleep(2000);
 
             extentTest.get().log(Status.INFO, "PDF file downloaded on browser");
 

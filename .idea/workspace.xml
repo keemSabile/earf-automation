@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4b39a68-bacf-4e06-aa79-4a81c77ad8c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/project/EARF/earfApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/project/EARF/earfApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/project/EARF/webdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/project/EARF/webdriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,16 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2E99pfS9FoKUzjjA2bMa3D6w0X5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -56,9 +69,19 @@
       <recent name="project.EARF" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/p.alakeem.abdulla/MyProject/testng.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/p.alakeem.abdulla/earf-generator/testng.xml">
     <configuration name="C:/Users/p.alakeem.abdulla/MyProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/p.alakeem.abdulla/earf-generator/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="earf-generator" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -87,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/p.alakeem.abdulla/earf-generator/testng.xml" />
         <item itemvalue="TestNG.C:/Users/p.alakeem.abdulla/MyProject/testng.xml" />
         <item itemvalue="TestNG.earfApplication.EARFWebPage" />
       </list>
@@ -114,7 +138,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="earf-automation" />
                       </list>
                     </value>
                   </entry>
