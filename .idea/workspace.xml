@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4b39a68-bacf-4e06-aa79-4a81c77ad8c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/project/EARF/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/project/EARF/ExtentReporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/project/EARF/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/project/EARF/assertPDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/project/EARF/earfApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/project/EARF/listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/project/EARF/userInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/project/EARF/webdriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +108,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
