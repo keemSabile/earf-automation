@@ -1,0 +1,20 @@
+
+stages:
+  - build
+  - regression
+
+# Build:
+#   stage: build
+  
+
+Chrome:
+  stage: regression
+  image: maven:3-jdk-11
+  services:
+    - name: selenium/standalone-chrome:latest
+      alias: gitlab-selenium-server
+  # image: selenium/standalone-chrome:latest
+  before_script:
+    - mvn compile
+  script:
+    - mvn clean test -DtestngFile="testng.xml"
