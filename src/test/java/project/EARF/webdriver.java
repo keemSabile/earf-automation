@@ -19,7 +19,7 @@ public class webdriver {
         cap.setBrowserName(BrowserType.CHROME);
         cap.setVersion("");
         //driver = new ChromeDriver();
-		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
+		driver = new RemoteWebDriver(new URL("http://selenium__standalone-chrome:4444/wd/hub/"), cap);
         System.out.println("Open Chrome Browser");
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         driver.manage().window().maximize();
