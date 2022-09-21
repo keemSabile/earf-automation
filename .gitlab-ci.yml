@@ -5,7 +5,7 @@ Chrome:
   stage: regression
   image: selenium/standalone-chrome:latest
   before_script:
-    - $MAVEN_HOME/bin/mvn clean
+    - image: maven:3.8-openjdk-11
     - mvn compile
   script:
     - mvn clean test -DtestngFile="testng.xml"
