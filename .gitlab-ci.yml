@@ -1,0 +1,10 @@
+stages:
+    - regression
+
+Chrome:
+  stage: regression
+  image: markhobson/maven-chrome:jdk-11
+  before_script:
+    - mvn compile
+  script:
+    - mvn clean test -DtestngFile="testng.xml"
