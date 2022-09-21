@@ -3,7 +3,7 @@ stages:
 
 Chrome:
   stage: regression
-  image: markhobson/maven-chrome:jdk-11
+  image: selenium/standalone-chrome:latest
   before_script:
     - mvn compile
   script:
