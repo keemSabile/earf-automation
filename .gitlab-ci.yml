@@ -3,13 +3,14 @@ stages:
   - build
   - regression
 
-Build:
-  stage: build
-  image: maven:3-jdk-11
+# Build:
+#   stage: build
+  
 
 Chrome:
   stage: regression
-  image: selenium/standalone-chrome:latest
+  image: maven:3-jdk-11
+  # image: selenium/standalone-chrome:latest
   before_script:
     - mvn compile
   script:
