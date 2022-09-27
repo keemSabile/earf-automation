@@ -39,7 +39,7 @@ public class webdriver {
         System.out.println("Open Chrome Browser");
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get("http://172.31.93.36/");
+        driver.get("http://172.31.93.35/");
         System.out.println("Open Web Page");
 
         return driver;

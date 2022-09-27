@@ -4,33 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b39a68-bacf-4e06-aa79-4a81c77ad8c7" name="Changes" comment="systemPrint and add waiting time to alert">
+    <list default="true" id="a4b39a68-bacf-4e06-aa79-4a81c77ad8c7" name="Changes" comment="located chrome-machine downlaoded files and copy to user directory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Thu_Sep_01_10_20_13_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_08_45_40_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_08_47_17_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_08_48_59_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_08_49_47_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_08_50_40_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_08_51_53_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_08_54_06_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_08_56_11_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_08_57_34_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_09_01_52_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_10_13_00_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_10_13_48_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_10_14_31_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_10_17_23_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_10_30_18_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_10_31_47_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_10_39_07_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_10_43_18_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_10_44_28_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_10_45_41_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_10_49_43_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Automation Report_Wed_Sep_21_11_50_16_SGT_2022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/convertedPDF/EARF_Abdulla,Al-Akeem Sabile_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/project/EARF/assertPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/project/EARF/assertPDF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/project/EARF/webdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/project/EARF/webdriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663752334129</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="located chrome-machine downlaoded files and copy to user directory">
+      <created>1664266086214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664266086214</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +164,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="systemPrint and add waiting time to alert" />
-    <option name="LAST_COMMIT_MESSAGE" value="systemPrint and add waiting time to alert" />
+    <MESSAGE value="located chrome-machine downlaoded files and copy to user directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="located chrome-machine downlaoded files and copy to user directory" />
   </component>
 </project>
