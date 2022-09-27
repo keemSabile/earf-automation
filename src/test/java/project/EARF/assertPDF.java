@@ -37,8 +37,8 @@ public class assertPDF extends listener {
 		String MNval = middlename.getAttribute("value");
 
 		// Verify PDF Output - Assert
-		String pdfloc = "C://Users//p.alakeem.abdulla//Downloads//" + "EARF_" + LNval + "," + FNval + " " + MNval
-				+ ".pdf";
+		String pdfloc = "./target/downloads/" + "EARF_" + LNval + "," + FNval + " " + MNval + ".pdf";
+
 		PDDocument pdDocument = PDDocument.load(new File(pdfloc));
 		PDFTextStripper stripper = new PDFTextStripper();
 		String data = stripper.getText(pdDocument);
